@@ -1,0 +1,57 @@
+.topbar {
+  width: 100%;
+  border-bottom: 2px solid #d5d5d5;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .topbar__title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #4f4f4f;
+  }
+  .topbar__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px 20px;
+    .topbar__search {
+      .search__input {
+        border: none;
+        border-radius: 8px;
+        padding: 10px 10px 10px 20px;
+        min-width: 300px;
+      }
+    }
+    .topbar__btn {
+      .btn {
+        padding: 0 30px;
+        border-radius: 8px;
+        background-color: rgb(11, 58, 246);
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+    .topbar__notifi {
+      width: 35px;
+      height: 35px;
+      background-color: white;
+      border-radius: 100%;
+      display: flex;
+      .notifi__img {
+        margin: auto;
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .topbar__setting {
+      .setting__img {
+        width: 45px;
+        height: 45px;
+        border: 2px solid green;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+}
